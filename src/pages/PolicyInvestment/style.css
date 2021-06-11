@@ -1,0 +1,74 @@
+
+.sweet-alert{
+    padding: 0 !important;
+    border-radius: 0 !important;
+    padding: 20px 35px !important;
+}
+
+.sweet-alert h2{
+    text-align: left !important;
+    margin: 0 !important;
+}
+
+.sweet-alert .t-left{
+    text-align: left;
+}
+
+.bottom-overlay{
+    z-index: 9999;
+    position: fixed;
+    bottom: 0;
+    height: 100vh;
+    background: rgba(0,0,0,0.8);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.bottom-overlay.show{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.bottom-overlay .card{
+    position: absolute;
+    bottom: -100%;
+    height: 95%;
+    width: 100%;
+    background: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.bottom-overlay.show .card{
+    opacity: 1;
+    bottom: 0;
+}
+
+.bottom-overlay .bottom-btn{
+    bottom: -100% !important;
+    transition: 0.3s;
+}
+
+.bottom-overlay.show .bottom-btn{
+    bottom: 0 !important;
+    transition: 0.3s;
+}
+
+@media screen and (max-height: 568px ) {
+    .warning-text{
+        height: 250px;
+        overflow: auto;
+    }
+    
+}
+
+.carousel-control-prev-icon {
+    background-image: none;
+}
+.carousel-control-next-icon {
+    background-image: none;
+}

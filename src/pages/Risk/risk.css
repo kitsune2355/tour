@@ -1,0 +1,50 @@
+.risk-line{
+    border-bottom: 1px solid #e6e6e6;
+}
+.risk-circle{
+    border: 7px solid#3b9ada;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.risk-circlenum{
+    font-size: 150px;
+    color: #3b9ada;
+    line-height: 180px;
+}
+.riskasset-bgtitle{
+    z-index: 1;
+    width: 100%;
+    display: block;
+    left: 0;
+    right: 0;
+}
+.riskasset-bgtitle-img{
+    opacity: 0.3;
+}
+.riskasset-title{
+    position: absolute;
+    z-index: 999;
+    /* margin-top: 5px; */
+    top: 20px;
+    left: 20px;
+}
+.riskasset-checkbox{
+    width: 18px;
+    height: 18px;
+    border: 1px solid #0d284f;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: auto!important;
+    margin-top: auto!important;
+}
+.riskasset-checkbox-active{
+    width: 18px;
+    height: 18px;
+    border: 1px solid #0d284f;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: auto!important;
+    margin-top: auto!important;
+    background-color: #0d284f!important;
+}

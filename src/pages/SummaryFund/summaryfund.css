@@ -1,0 +1,54 @@
+.summaryfund-inputdate{
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.summaryfund-bgtitle{
+    background-color: #effafb;
+    border-bottom: 1px solid #0d284f;
+    padding-bottom: .2rem!important;
+    padding-top: .2rem!important;
+}
+.summaryfund-arrowlist{
+    vertical-align: initial;
+}
+.summaryfund-line{
+    border-bottom: 1px solid #e6e6e6;
+}
+.summaryfund-bgsum{
+    background-color: #3b9ada;
+    padding-bottom: .2rem!important;
+    padding-top: .2rem!important;
+    display: flex!important;
+}
+.summaryfund-chartinside{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+    position: absolute;
+    left: 50%;
+    top: 47%;
+    transform: translate(-50%,-50%);
+}
+
+.summaryfund-chart text{
+    font-family: "PSL"!important;
+    font-size: 18px!important;
+    color: #000000!important;
+}
+.summaryfund-chart a{
+    display: none!important;
+}
+
+.summaryfund-fullpage{
+    flex: 0 0 100%;
+    max-width: 100%;
+}

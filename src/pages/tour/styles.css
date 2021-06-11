@@ -1,0 +1,219 @@
+.bg{
+    background: linear-gradient(90deg,#1cb89b 44%,#33c692 74%,#4fe0a1);
+    border-bottom-left-radius: 350px;
+}
+.bg{
+    background: linear-gradient(90deg,#1cb89b 44%,#33c692 74%,#4fe0a1);
+    border-bottom-left-radius: 300px;
+}
+.notify{
+    background: #f00;
+    color: #fff;
+    width: 18px;
+    height: 18px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    transform: translate(30%,-70%);
+}
+.slide-img{
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    border: none;
+}
+.slide-img img{
+    display: inline;
+    margin: 0 10px;
+}
+.slide-img img:hover{
+    position: relative;
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+}
+.size-img img{
+    width: 100%;
+    height: auto;
+}
+.card{
+    height: 100%;
+    padding: 20px 10px;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: rgba(0,0,0,0.5);
+    border-radius: 15%;
+}
+
+.deal-time p{
+    padding: 0;
+    margin: 0;
+}
+.deal-time span{
+    background: #ffd900;
+    font-weight: 800;
+    padding: 3px;
+    border-radius: 30%;
+}
+.card-d{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 0;
+    margin: 0 10px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10%;
+    box-shadow: rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+.card-deal{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    padding: 0;
+    margin: 0 10px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10%;
+    box-shadow: rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+.deal-card img{
+    margin: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.deal-card span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    transform: translate(20%,-120%);
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    width: 50px;
+}
+.content-d{
+    margin: 10px;
+}
+.content-deal{
+    margin: 10px 10px 0 10px;
+}
+.price-d{
+    margin: 10px;
+}
+.price-deal{
+    margin: 0 10px;
+}
+.price-d span{
+    text-decoration: line-through;
+}
+.price-deal span{
+    text-decoration: line-through;
+}
+.price-d p{
+    color: #b81c55;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0;
+}
+.price-deal p{
+    color: #b81c55;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0;
+}
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.slider{
+    display: flex;
+    overflow-x: auto;
+}
+.slide{
+    flex-shrink: 0;
+}
+.slide-i{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+}
+.slide-i img{
+    margin: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.slide-i p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0;
+}
+
+button{
+    width: 80px;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    color: rgb(147, 146, 146);
+}
+button:hover{
+    color: #fff;
+    background: linear-gradient(90deg,#4fe0a1 44%,#33c692 74%,#1cb89b);
+}
+
+.nav-bar{
+    padding: 10px 0;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.nav-bar li{
+    list-style: none;
+}
+.nav-bar a span{
+    font-size: 14px;
+}
+.nav-bar a{
+    color: rgb(172, 171, 171);
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.nav-bar a:hover{
+    color: #000;
+    font-weight: bold;
+}
+.nav-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgb(184, 176, 176);
+}
+.nav-btn div{
+    color: #fff;
+}

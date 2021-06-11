@@ -1,0 +1,10 @@
+.investmentpolicy-card{
+    border-radius: 5px!important;
+    border: none!important;
+    box-shadow: 0px 0px 3px 1px #e0dfdf;
+    padding: 10px;
+}
+.investmentpolicy-line{
+    border-bottom: 1px solid #e6e6e6;
+}
+
